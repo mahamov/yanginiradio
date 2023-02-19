@@ -100,10 +100,15 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'No Color';
+		font-family: 'no_colorregular' ,Helvetica, Arial, "sans-serif";
+    src: url('no_color-webfont.eot');
+    src: url('no_color-webfont.eot?#iefix') format('embedded-opentype'),
+         url('no_color-webfont.woff2') format('woff2'),
+         url('no_color-webfont.woff') format('woff'),
+         url('no_color-webfont.ttf') format('truetype'),
+         url('no_color-webfont.svg#no_colorregular') format('svg');
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
